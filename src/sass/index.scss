@@ -1,2 +1,45 @@
 @import './common';
-@import './example';
+
+ul, ol{
+  list-style: none;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1300px;
+};
+
+header{
+  // position: fixed;
+  // width: 100%;
+  
+  background-color: red;
+}
+
+.header-container{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+};
+
+.imgage-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+};
+
+.item-list{
+  width: calc((100% - 40px)/4);
+}
+
+.img-info{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border: 1px solid black;
+}

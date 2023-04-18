@@ -8,7 +8,51 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <header>
+      <div class="container header-container">
+        <form class="search-form" id="search-form">
+          <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <ul class="js-imageList imgage-list">
+          <li class="item-list">
+            <img width="200"
+              src="https://pixabay.com/get/g0fac007f748cdf535c3865551e22badbc6434175aed1417edd27b164bb8b77ce7ce7d9d125979d5c53780e98ddc1c7c6_640.jpg"
+              alt="tree, cat, silhouette">
+            <div class="img-info">
+              <div class="img__sub-info">
+                <h2 class="sub-info__name"></h2>
+                <p class="sub-info__value"></p>
+              </div>  
+              <div class="img__sub-info">
+                <h2 class="sub-info__name"></h2>
+                <p class="sub-info__value"></p>
+              </div>
+              <div class="img__sub-info">
+                <h2 class="sub-info__name"></h2>
+                <p class="sub-info__value"></p>
+              </div>
+              <div class="img__sub-info">
+                <h2 class="sub-info__name"></h2>
+                <p class="sub-info__value"></p>
+              </div>
+            </div>
+            </li>
+          <li class="item-list"><img width="200"
+              src="https://pixabay.com/get/g0fac007f748cdf535c3865551e22badbc6434175aed1417edd27b164bb8b77ce7ce7d9d125979d5c53780e98ddc1c7c6_640.jpg"
+              alt="tree, cat, silhouette"></li>
+          <li class="item-list"><img width="200"
+              src="https://pixabay.com/get/g0fac007f748cdf535c3865551e22badbc6434175aed1417edd27b164bb8b77ce7ce7d9d125979d5c53780e98ddc1c7c6_640.jpg"
+              alt="tree, cat, silhouette"></li>
+          <li class="item-list"><img width="200"
+              src="https://pixabay.com/get/g0fac007f748cdf535c3865551e22badbc6434175aed1417edd27b164bb8b77ce7ce7d9d125979d5c53780e98ddc1c7c6_640.jpg"
+              alt="tree, cat, silhouette"></li>
+        </ul>
+      </div>
+    </main>
   </body>
 </html>
