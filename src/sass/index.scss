@@ -1,7 +1,12 @@
 @import './common';
 
+h2, p {
+  margin: 0;
+}
+
 ul, ol{
   list-style: none;
+  padding: 0;
 }
 
 .container{
@@ -37,9 +42,29 @@ header{
   width: calc((100% - 40px)/4);
 }
 
+.list-img{
+  min-width: 100%;
+  max-width: 100%;
+}
+
 .img-info{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   border: 1px solid black;
+  padding: 10px;
+}
+
+.img__sub-info{
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.sub-info__value{
+  font-size: 16px;
+  
 }
