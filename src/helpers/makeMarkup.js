@@ -1,5 +1,4 @@
 export function makeMarkup(resObject) {
-  console.log(resObject)
   const markup = resObject.data.hits.map(({ largeImageURL, webformatURL, tags, likes, views, comments, downloads }) =>
     `
     <li class="item-list">
